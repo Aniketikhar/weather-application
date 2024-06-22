@@ -1,0 +1,23 @@
+
+
+.container-box{
+    width: 60% !important;
+}
+
+
+#details p {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 769px){
+    .container-box{
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container-box{
+        width: 100% !important;
+        height: 100vh !important;
+    }
+}
